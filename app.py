@@ -7,11 +7,7 @@ from sklearn.metrics import accuracy_score
 import pickle
 from sklearn.linear_model import LogisticRegression
 
-# Logo [optionnal]
-st.image("gambar anime.webp", use_column_width=True)
 
-# create streamlit interface, some info about the app
-# '''
 
 st.write("""
          ### To predict your heart disease status:
